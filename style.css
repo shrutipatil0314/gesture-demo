@@ -1,0 +1,39 @@
+body {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  background: linear-gradient(135deg, #ffe4e1, #e6e6fa);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+.video-panel {
+  position: relative;
+}
+
+#webcam, #overlay {
+  width: 640px;
+  height: 480px;
+  border-radius: 10px;
+}
+
+.caption-panel {
+  width: 300px;
+  background: #fff0f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#caption {
+  font-size: 1.5em;
+  color: #ff69b4;
+  text-shadow: 2px 2px #fff;
+}
